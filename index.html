@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="assets/images/Logo.png" type="image/x-icon">
+    <!-- font-family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- style-sheet-link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- iconfy -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Bones Token</title>
+  </head>
+  <body>
+
+    <!-- nav-bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light mt-md-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-4" href="index.html">
+          <img src="assets/images/Logo.png" alt="logo">
+          <div class="fs-24 text-white">Bones Token</div>
+        </a>
+        <button class="navbar-toggler text-white" onclick="homeNav()" >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div  onclick="homeNavClose()" class="cross-btn pb-4">
+              <i class="fa fa-times text-black fs-20"></i>
+            </div>
+          <ul class="navbar-nav ms-auto mb-2 gap-5 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" onclick="homeNavClose()" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="homeNavClose()" href="#Community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="homeNavClose()" href="#Tokenomics">Tokenomics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="homeNavClose()" href="#Roadmap">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="homeNavClose()" href="#Resources">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+     <!-- bones-token -->
+     <section class="bones-token">
+      <div class="container">
+        <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-5">
+          <h1 class="h-primary mb-md-0 text-center text-md-end fw-700">Bones Token</h1>
+          <div class="bones-images">
+            <img src="assets/images/bones.png" class="w-100" alt="bones-main">
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- about -->
+     <section class="about d-flex align-items-center" id="About">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 col-md-5 order-md-0 order-1">
+            <div class="about-image">
+              <img src="assets/images/skeleton.png" class="w-100" alt="skeleton">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-7 mt-5">
+             <h2 class="h-primary fw-700 text-center">About</h2>
+             <p class="mt-5 text-center text-md-start ">
+              Welcome to the official website of Bones Token. $BONES was created to be the beginning to a new ecosystem using the existing ERC-20 technology. A simple idea, yet big dreams. <br> <br>
+
+              The philosophy behinds Bones is that every robust ecosystem needs a solid foundation. Unlock the potential of ERC-20: Discover the power of $BONES.
+             </p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!--community  -->
+     <section class="community-meetup d-flex justify-content-center align-items-center" id="Community">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+          <h1 class="h-primary fw-700 text-center">
+            Community Meetups
+          </h1>
+          <div class="h-secondary text-center mt-5 pt-0 pt-md-5">
+            Want to host a meetup? Reach out to us on Twitter <a class="text-white" href="https://twitter.com/bonestoken" target="_blank">@bonestoken!</a> 
+          </div>
+        </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- tokenomics -->
+     <section class="tokenomic d-flex justify-content-center align-items-center" id="Tokenomics">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h1 class="h-primary text-center fw-700 text-white">Tokenomics</h1>
+            <div class="tokenomic-image">
+              <img src="assets/images/tokenomics.png" class="w-100 h-100" alt="tokenomics">
+            </div>
+            <h2 class="h-secondary text-center mt-5">Total Supply: 150,000,000 bones</h2>
+
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- roadmap -->
+     <section class="roadmap d-flex justify-content-center align-items-center" id="Roadmap">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10">
+              <img src="assets/images/roadmap.png" class="w-100 h-100" alt="tokenomics">
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- document -->
+     <section class="document d-flex justify-content-center align-items-center" id="Resources">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="document-inner">
+              <h2 class="h-secondary">Read our Documents</h2>
+              <div class="fs-24 text-white mt-md-5 mt-3">Access our documents here.</div>
+              <div class="d-flex gap-5  mt-4 fs-20">
+                 <a href="assets/images/whitepaper-en.pdf" class="link-color">English</a>
+                 <a href="assets/images/whitepaper-br.pdf" class="link-color">Portuguese</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- footer -->
+     <footer class="d-flex flex-column justify-content-center align-items-center footer-main">
+      <div class="container">
+        <div class="fs-24 text-white text-center">
+          $BONES has no intrinsic value or expectation of financial return
+        </div>
+
+       <div class="text-center pt-3 pt-md-0"> 
+        <a href="mailto:contact@bonestoken.com" class="fs-24 text-white ">
+          Email: contact@bonestoken.com
+        </a>
+       </div>
+      </div>
+     </footer>
+     <script>
+
+const homeNav = () => {
+    if (document.body.classList.contains("home-sm")) {
+      document.body.classList.remove("home-sm");
+    } else {
+      document.body.classList.add("home-sm");
+    }
+  };
+
+  const homeNavClose = () => {
+    if (document.body.classList.contains("home-sm")) {
+      document.body.classList.remove("home-sm");
+    } 
+  };
+
+     </script>
+         
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
